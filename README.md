@@ -10,11 +10,12 @@ Avant de pouvoir utiliser les scripts, vous devez installer composer et installe
 
 Pour installer composer, référez vous à la documenation officielle : [Composer](https://getcomposer.org/)
 
-Dès que vous avez installé composer, ouvrez un terminal puis rendez-vous dans le dossier du projet avec la commande `cd`.
+Dès que vous avez installé composer, ouvrez un terminal puis rendez-vous dans le dossier `code` du projet avec la commande `cd`.
 
 Puis tapez :
 
     cd epsi-lille-php-silex-2016-2017
+    cd code
     php composer.phar install
 
 ## Utilisation
@@ -28,11 +29,12 @@ Ouvrez un terminal puis rendez-vous dans le dossier `web` du projet avec la comm
 Tapez :
 
     cd epsi-lille-php-silex-2016-2017
+    cd code
     cd web
     php -S localhost:8000
 
 Vous pourrez alors afficher les scripts dans votre navigateurs.
 
-Par exemple tapez cette url dans votre navigateur : `http://localhost:8000/`
-Ou encore : `http://localhost:8000/name/Foo Bar`
+Par ouvrir la home page, tapez cette url dans votre navigateur : `http://localhost:8000/`
+Pour ouvrir la page « hello world », tapez cette url : `http://localhost:8000/name/Foo Bar`
 
