@@ -10,12 +10,11 @@ Avant de pouvoir utiliser les scripts, vous devez installer composer et installe
 
 Pour installer composer, référez vous à la documenation officielle : [Composer](https://getcomposer.org/)
 
-Dès que vous avez installé composer, ouvrez un terminal puis rendez-vous dans le dossier `code` du projet avec la commande `cd`.
+Dès que vous avez installé composer, ouvrez un terminal puis rendez-vous dans le dossier du projet avec la commande `cd`.
 
 Puis tapez :
 
     cd epsi-lille-php-silex-2016-2017
-    cd code
     php composer.phar install
 
 ## Utilisation
@@ -29,7 +28,6 @@ Ouvrez un terminal puis rendez-vous dans le dossier `web` du projet avec la comm
 Tapez :
 
     cd epsi-lille-php-silex-2016-2017
-    cd code
     cd web
     php -S localhost:8000
 
